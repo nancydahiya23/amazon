@@ -242,3 +242,88 @@ ul a {
 .copyright {
     padding-top: 5px;
 }
+/* ----------------- Responsive Design ----------------- */
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .nav-logo, .nav-address, .nav-signin, .nav-return, .nav-cart {
+        margin: 5px;
+        text-align: center;
+    }
+
+    .nav-search {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .panel {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 10px;
+    }
+
+    .panel-ops {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .panel-ops p {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .panel-deals {
+        margin-top: 10px;
+    }
+
+    .hero-section {
+        height: 200px;
+        background-position: center;
+    }
+
+    .hero-msg {
+        font-size: 0.75rem;
+        padding: 10px;
+        width: 95%;
+        text-align: center;
+    }
+
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        height: auto;
+    }
+
+    .box-img {
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+
+    .foot-panel2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .foot-panel2 ul {
+        margin: 10px 0;
+    }
+
+    .foot-panel3, .foot-panel4 {
+        text-align: center;
+    }
+}
+
